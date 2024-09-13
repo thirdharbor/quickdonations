@@ -1,0 +1,311 @@
+.campaign-grid-wrapper {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.campaign-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1080px;
+    justify-content: center;
+}
+
+
+
+.campaign-grid-item {
+
+    border: 1px solid #ccc;
+
+    padding: 15px;
+
+    width: 35%;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+	border-radius: 10px;
+
+}
+
+
+
+button.open-modal {
+
+    background-color: #ce172e;
+
+    padding: 10px 15px 10px 15px;
+
+    border-width: 2px;
+
+    border-color: black;
+
+    border-radius: 50px;
+
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45a041;
+    z-index: 9800;
+    padding-top: 50px;
+    border-left-width: 8px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #ce172e;
+    border-style: solid;
+}
+
+img.campaign-image {
+
+    border-radius: 10px 10px 0px 0px;
+
+    height: 150px !important;
+
+    object-fit: cover !important;
+
+}
+
+
+
+.campaign-description {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    /* margin-bottom: 20px;
+
+    margin-top: 20px;
+
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+    height: 100px;
+
+    max-height: 100px;
+
+    overflow: hidden;
+
+	text-overflow: ellipsis; */
+
+}
+
+
+
+.amount-label {
+
+  
+
+    margin-top: 10px;
+
+    
+    text-align: center;
+
+    height: auto;
+
+}
+
+
+
+.amount {
+
+    text-align: center;
+
+}
+
+
+
+.modal-content {
+    padding: 0px;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #45a041;
+}
+
+.row3 {
+    display: none;
+}
+
+.close-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 50px;
+    color: black;
+    z-index: 20000;
+    /* background-color: white; */
+    padding: 10px;
+}
+
+.campaign-grid-item {
+    border: 1px solid #ccc;
+    padding: 0px 0px 20px 0px;
+    width: 20%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3.wc-donation-title {
+    display: none;
+}
+
+
+/* div#cart-modal {
+
+    display: block;
+
+    position: absolute;
+
+    top: 158px;
+
+    right: 0;
+
+    background-color: white;
+
+    width: 30%;
+
+    z-index: 20000;
+
+    height: 100vh;
+
+}
+
+.cart-modal-content {
+
+    width: 400px;
+
+    contain: content;
+
+    height: 100vh;
+
+    background-color: white;
+
+    padding: 50px;
+
+    padding-top: 30%;
+
+} */
+
+div.amount-label > h3 {
+    font-size: 18px;
+}
+
+div.amount > h4 {
+    font-size: 18px;
+}
+
+.widget_wc-donation-widget {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fcfcf2;
+    border-radius: 10px;
+}
+
+#campaign-modal > div > h3 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+/* label#single-donation-label {
+    padding: 10px 10px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #45a041;
+    border-style: solid;
+} */
+
+.donation-type-label {
+    padding: 10px 10px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #45a041;
+    border-style: solid;
+    font-size: 15px;
+}
+
+.donation-type-labels {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.selected-label {
+    padding: 10px 10px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #ce172e;
+    border-style: solid;
+    background-color: #ce172e;
+    color: white;
+    font-size: 15px;
+}
+
+ul.causes-dropdown {
+    margin: 0 0 15px 0 !important;
+    list-style: none;
+    border: 1px #000 solid;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -ms-flexbox;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+    width: 100%;
+}
+
+
+img.img-cause-drop {
+    display: none;
+}
+
+.cause-img-wrap {
+    display: none;
+    min-width: 0px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+div.wc-donation-in-action > div > div.wc-donation-tribute-wrapper > div > label {
+    width: auto;
+    margin-top: 10px;
+}
+
+#campaign-modal > div > p {
+    margin-left: 30px;
+    color: white;
+}
